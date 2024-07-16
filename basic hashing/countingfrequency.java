@@ -1,6 +1,7 @@
+
 import java.util.*;
 
-public class countingfrequencies {
+public class countingfrequency {
     static void countfreq(int arr[], int n) {
         boolean visited[] = new boolean[n];
         for (int i = 0; i < n; i++) {
