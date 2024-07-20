@@ -4,9 +4,9 @@ public class quicksort {
         int pivot = arr.get(high);//pvot be the last element
         int i=(low-1);//i is index of smaller element
         for(int j=low;j<high;j++){//j ranges from low to high
-            if(arr.get(j)<=pivot){
+            if(arr.get(j)<=pivot) {
                 i++;
-                Collections.swap(arr,i,j);//swap i and j
+                Collections.swap(arr, i, j);//swap i and j
             }
         }
         Collections.swap(arr,i+1,high);//swap (i+1) and high
