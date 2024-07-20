@@ -1,5 +1,5 @@
 import java.util.*;
-public class quicksort {
+public class quicksort1 {
     static int partition(List<Integer> arr, int low, int high) {
         int pivot = arr.get(high);//pvot be the last element
         int i=(low-1);//i is index of smaller element
