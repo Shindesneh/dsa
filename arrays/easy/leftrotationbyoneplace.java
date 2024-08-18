@@ -7,7 +7,7 @@ public class leftrotationbyoneplace {
 
         }
         arr.set(arr.size() - 1, temp);
-        for (int i = 0; i < arr.size() ; i++) {
+        for (int i = 0; i < arr.size()  ; i++) {
             System.out.print(arr.get(i) + " ");
         }
     }
